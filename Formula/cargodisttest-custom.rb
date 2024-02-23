@@ -1,20 +1,20 @@
 class CargodisttestCustom < Formula
   desc "💬 a CLI for learning to distribute CLIs in rust"
-  version "0.5.0"
+  version "0.5.1"
   on_macos do
     on_arm do
-      url "https://gankra.artifacts.axodotdev.host/cargodisttest/ax_Vk5E8GBnq7kF-u62zw1lg/cargodisttest-aarch64-apple-darwin.tar.gz"
-      sha256 "3ac161f9e2464cc2e6b4337fc4ad0cc880825da25fc18cde73ce3e2c91c2a7d3"
+      url "https://gankra.artifacts.axodotdev.host/cargodisttest/ax_uU6DENXwTOnagwbEVSdqu/cargodisttest-aarch64-apple-darwin.tar.gz"
+      sha256 "74a5fd31c88df52a44d58594f5b70fe2af541f07234c6edfe86e9848282d01de"
     end
     on_intel do
-      url "https://gankra.artifacts.axodotdev.host/cargodisttest/ax_Vk5E8GBnq7kF-u62zw1lg/cargodisttest-x86_64-apple-darwin.tar.gz"
-      sha256 "15abb6b01e762e8f706d4a6b4def880730f4419d2a7339c70d15693e3d2bc8d4"
+      url "https://gankra.artifacts.axodotdev.host/cargodisttest/ax_uU6DENXwTOnagwbEVSdqu/cargodisttest-x86_64-apple-darwin.tar.gz"
+      sha256 "b4cb094d968e99261b9e2003d1532641fafe1677cf07553d6c0c940214638f95"
     end
   end
   on_linux do
     on_intel do
-      url "https://gankra.artifacts.axodotdev.host/cargodisttest/ax_Vk5E8GBnq7kF-u62zw1lg/cargodisttest-x86_64-unknown-linux-gnu.tar.gz"
-      sha256 "5e88049fa721cd09eb70123990023e56a3b77dcf8bc30205ae2fd78ad847e13d"
+      url "https://gankra.artifacts.axodotdev.host/cargodisttest/ax_uU6DENXwTOnagwbEVSdqu/cargodisttest-x86_64-unknown-linux-gnu.tar.gz"
+      sha256 "052ba48e6f6e33e02fe0dc2167078b740e741cfcd9ed1b2a90db36318e958fff"
     end
   end
   license "MIT OR Apache-2.0"
