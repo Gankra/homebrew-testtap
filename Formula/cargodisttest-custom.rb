@@ -1,21 +1,21 @@
 class CargodisttestCustom < Formula
   desc "💬 a CLI for learning to distribute CLIs in rust"
   homepage "https://github.com/Gankra/cargodisttest"
-  version "0.7.1"
+  version "0.7.2"
   if OS.mac?
     if Hardware::CPU.arm?
-      url "https://github.com/Gankra/cargodisttest/releases/download/v0.7.1/cargodisttest-aarch64-apple-darwin.tar.gz"
-      sha256 "11b3771cf89693613db14dafa8681a806d806baafd8253ce6122cf7afb38bef4"
+      url "https://github.com/Gankra/cargodisttest/releases/download/v0.7.2/cargodisttest-aarch64-apple-darwin.tar.gz"
+      sha256 "d65c4ab410b4089fccc685bbad98f84e8211e63befe9a634da3144d5a25f7c09"
     end
     if Hardware::CPU.intel?
-      url "https://github.com/Gankra/cargodisttest/releases/download/v0.7.1/cargodisttest-x86_64-apple-darwin.tar.gz"
-      sha256 "6c9433d099afeb96599d13e1f11f1db1b09479f01ac79bf0d7921fdb8ae9f1fd"
+      url "https://github.com/Gankra/cargodisttest/releases/download/v0.7.2/cargodisttest-x86_64-apple-darwin.tar.gz"
+      sha256 "7778513c6bbb0148b620e427ec9a61d2b4f2a52e864bd14c6605a32a1bc823cf"
     end
   end
   if OS.linux?
     if Hardware::CPU.intel?
-      url "https://github.com/Gankra/cargodisttest/releases/download/v0.7.1/cargodisttest-x86_64-unknown-linux-gnu.tar.gz"
-      sha256 "1a0ab28bf0b7b3f972d6724dd9ce9a9fdb97a26a39989784a4a61d34d2aa6ea8"
+      url "https://github.com/Gankra/cargodisttest/releases/download/v0.7.2/cargodisttest-x86_64-unknown-linux-gnu.tar.gz"
+      sha256 "a56db11d1cdc4d158c50b495658cc52184d699d75f223afb24eea7b5ae67f4b4"
     end
   end
   license "MIT OR Apache-2.0"
